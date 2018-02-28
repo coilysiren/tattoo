@@ -1,4 +1,4 @@
-from . import (
+from assets import (
     entities, roles
 )
 
