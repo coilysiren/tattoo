@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from assets import (
     entities, roles
 )
@@ -5,20 +7,20 @@ from assets import (
 class Lynn(
     entities.Human,
 ):
-    name = 'lynn cyrin'
     role = roles.SoftwareEngineer
-    sexuality = 'queer'
-    race = 'diasporic african'
-    gender_prefix = 'trans'
-    gender = 'femme'
-
-    def work_output(self):
-        return super()\
-            .work_output() * 2
-
-    @property
-    def jobs(self):
-        return [
-            'NASA',
-            'Bundler',
-            'Callisto',
+    name = 'lynn cyrin'
+    identities = 'diasporic african woman'
+    education = [
+        'mechanical engineering',
+        'material science',
+        'astronautical engineering',
+    ]
+    interests = [
+        'gaming',
+        'crafts',
+    ]
+    jobs = [
+        'NASA',
+        'Bundler',
+        'Callisto',
+    ]
