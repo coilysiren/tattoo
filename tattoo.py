@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 from assets import (
-    entities, roles, majors
+    entities,
+    roles,
 )
 
 class Lynn(
@@ -12,11 +13,6 @@ class Lynn(
     identities = [
         'diasporic african',
         'woman',
-    ]
-    education = [
-        majors.MechanicalEngineering,
-        majors.MaterialScience,
-        majors.AstronauticalEngineering,
     ]
     interests = [
         'OSS',
