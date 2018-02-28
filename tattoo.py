@@ -8,10 +8,10 @@ from assets import (
 class Lynn(
     entities.Human,
 ):
-    role = roles.SoftwareEngineer
+    role = roles.Engineer
     name = 'lynn cyrin'
     identities = [
-        'diasporic african',
+        'african',
         'woman',
     ]
     interests = [
